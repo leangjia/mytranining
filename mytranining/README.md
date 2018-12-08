@@ -1,0 +1,2 @@
+# mytranining
+leangjia的第一个odoo模块。20181207

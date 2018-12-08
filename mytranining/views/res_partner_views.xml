@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_mytraining_partner" model="ir.action.act_windows">
+            <field name="name">客户</field>
+            <field name="type">ir.action.act_windows</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+            <field name="view_model">kanban,tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context"></field>
+        </record>
+<menuitem id="partner_menu_root" name="客户管理" sequence="0" />
+<menuitem id="partner_menu" parent="partner_menu_root" action="action_mytraining_partner" sequece="10" />
+    </data>
+</odoo>
